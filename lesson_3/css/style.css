@@ -1,0 +1,48 @@
+@import url("reset.css");
+
+h1 {
+    color: aqua;
+}
+.history {
+    color: coral;
+}
+#history {
+    color: chartreuse;
+}
+[class*="enu"] {
+    color: brown;
+}
+.text, .bold {
+    color: blue;
+    font-weight: 800    ;
+}
+.top li {
+    font-weight: bold;
+}
+.origins > p {
+    color: blueviolet;
+}
+.origins-plus ~ p {
+    color: green;
+}
+.origins .origins-plus p {
+    color: red;
+}
+.origins + p {
+    font-weight: bold;
+}
+.region-spec li li li {
+    color: grey;
+}
+.region-spec > h2 {
+    font-weight: bold;
+}
+.region-spec .region ul {
+    color: blue;
+}
+.symbolism li li span {
+    color: red;
+}
+.symbolism li li li span {
+    color: green;
+}
