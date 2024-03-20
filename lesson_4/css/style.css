@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Podkova:wght@400..800&display=swap');
+@import url("fonts.css");
+@import url("reset.css");
+
+.page {
+    font-family: "Podkova", serif;
+    text-transform: capitalize;
+}
+.page .header h1 {
+    font-family: "Rubik Pixels", system-ui;
+    font-size: 64px;
+    text-align: center;
+    color: blueviolet;
+    word-spacing: 50px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-family: "StalinistOne-Regular", serif;
+    font-size: 32px;
+    color: #00000037;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 10px 10px 10px rgba(128, 128, 128, 0.663);
+}
+h3 {
+    font-family: "Mulish-Variable", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.079);
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 10px 10px 10px rgba(210, 11, 11, 0.663);
+}
+.intro {
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.64),
+                5px -2px 10px red;
+    letter-spacing: 10px;
+    line-height: 112.5%; /* 18/16 */
+}
+a {
+    color: rgb(31, 11, 217);
+}
+.maket_1_header h2 {
+    text-align: center;
+    color: #2b2929;
+    font-size: 40px;
+    font-style: normal;
+    font-family: "Proxima Nova Rg", sans-serif;
+    font-weight: 600;
+    line-height: 48px;
+}
+.maket_1_main {
+    font-family: "Proxima Nova Rg", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.maket_1_item {
+    overflow: hidden;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.218);
+}
+.maket_2 h2{
+    font-family: "Proxima Nova Rg", sans-serif;
+    font-weight: 600;
+    color:#2b2929;
+    text-decoration: none;
+    text-shadow: none;
+}
+.list h3 {
+    font-family: "Proxima Nova Rg", sans-serif;
+    font-weight: 600;
+    color:#2b2929;
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+.maket_2 p {
+    font-family: "Proxima Nova Rg", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+}
+.list ul {
+    font-family: "Proxima Nova Rg", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+    font-size: 16px;
+}
