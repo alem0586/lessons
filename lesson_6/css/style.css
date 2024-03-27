@@ -1,0 +1,314 @@
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url("reset.css");
+
+
+.page {
+    max-width: 50%;
+    min-width: 300px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 138.461538%; /* 18/13 */;
+	background-image: url(../img/background_patern.svg),
+	linear-gradient(90deg, rgba(4, 76, 84, 0.586) 0%, rgba(21, 184, 187, 0.493) 36%, rgba(229, 255, 0, 0.575) 91%);
+	background-size: auto;
+	background-attachment: fixed;
+}
+.page h1 {
+    background-color: rgba(210, 105, 30, 0.492);
+    font-weight: 800;
+    font-size: 28px;
+    font-family: "Proxima Nova", sans-serif;
+    text-align: center;
+    padding: 1%;
+	outline: 10px solid red;
+	outline-offset: 10px;
+	border-radius: 50%;
+	background-image: linear-gradient(90deg, rgba(0, 36, 31, 0.426) 0%, rgba(21,185,187,1) 36%, rgba(228,255,0,1) 91%);
+	
+}
+
+.page h2 {
+    background-color: rgba(210, 105, 30, 0.492);
+    font-weight: 800;
+    font-size: 22px;
+    font-family: "Proxima Nova", sans-serif;
+    text-align: center;
+    padding-bottom: 3%;
+	border-radius: 0 40px 0 40px ;
+	box-shadow: inset 0 0 20px 0 rgba(255, 255, 255, 0.958);
+	background-image: linear-gradient(90deg, rgba(3, 31, 83, 0.334) 0%, rgba(21,185,187,1) 36%, rgba(228,255,0,1) 91%);
+}
+
+.page h3 {
+    background-color: rgba(210, 105, 30, 0.492);
+    font-weight: 800;
+    font-size: 18px;
+    font-family: "Proxima Nova", sans-serif;
+    text-align: center;
+    padding: 20px 0;
+	background-image: url(../img/background_patern.svg);
+	background-size: 100px;
+
+}
+.intro {
+	border-top: 5px dotted green;
+	border-bottom: 5px dashed green;
+	border-left: 5px dotted green;
+	border-right: 5px dashed green;
+	border-radius: 93% 7% 87% 13% / 66% 30% 70% 34% ;
+	overflow: auto;
+}
+.history {
+    padding: 0 5%;
+    margin: 3% 0;
+}
+.history p {
+    margin-top: 1%;
+    background-color: rgba(100, 148, 237, 0.278);
+	box-shadow: 2px 2px 4px black;
+	border-radius: 10px 10px;
+	opacity: 0.6;
+	visibility: visible;
+}
+.identity p {
+    background-color: rgba(184, 135, 11, 0.305);
+    max-height: 55px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+	opacity: 0.55;
+}
+.inspiration {
+    margin: 0 auto;
+    font-size: 0;
+}
+.inspiration span {
+    background-color: #7b484867;
+    display: inline-block;
+    width: 31%;
+    padding: 0 5px;
+    margin: 1% auto 0 1.8%;
+    font-size: 14px;
+    max-height: 200px;
+    overflow: auto;
+	background-image: url(../img/background_patern.svg);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: 20% 30%;
+
+}
+.inspiration p {
+    font-size: 14px;
+}
+
+footer p {
+	display: inline-block;
+	margin: 20px 40px;
+	padding: 15px 30px;
+	color: whitesmoke;
+	border-radius: 40px;
+	background-color: rgb(97, 97, 144);
+	box-shadow: inset 5px 5px 5px rgba(255, 255, 255, 0.281),
+	-2px -2px 5px 2px rgba(0, 0, 0, 0.274)
+}
+.arrow-top {
+	display: inline-block;
+	margin: 20px 20px 0px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+}
+.arrow-right {
+	display: inline-block;
+	margin: 20px 20px 0px;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid green;
+	border-bottom: 50px solid transparent;
+}
+.arrow-bottom {
+	display: inline-block;
+	margin: 20px 20px 0px;
+	width: 0;
+	height: 0;
+	border-top: 100px solid green;
+	border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+}
+.footer_subitem {
+	background: url(../img/icons/Group.png) no-repeat;
+	background-size: 20px;
+	padding-left: 30px;
+	margin-bottom: 5px;
+	min-height: 20px;
+}	
+
+
+/* ******************************************************** */
+.article {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 400;
+	color: #2b2929;
+	max-width: 1900px;
+	margin: 0 auto;
+	background: #f8f8f8;
+	font-size: 16px;
+	line-height: 1.875;
+}
+
+.krovato {
+	max-width: 1070px;
+	margin: 0px auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.krovato h1, h2, h3 {
+	font-weight: 600;
+}
+
+.krovato h2 {
+	font-size: 40px; 
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+
+.img__container {
+	margin-bottom: 40px;
+}
+.img__container img {
+	border-radius: 10px;
+}
+
+.krovato__descr p {
+	margin-bottom: 30px;
+}
+
+.krovato h3 {
+	font-size: 20px; 
+	line-height: 1.4;
+	margin-bottom: 30px;
+}
+ul {
+	margin-bottom: 40px;
+}
+
+.krovato li {
+	margin-bottom: 20px;
+	background: url(../img/icons/mark.png) no-repeat;
+	padding-left: 40px;
+	min-height: 18px;
+}
+
+/* ************************************************************* */
+
+.kid-education {
+	background: url(../img/background-eduplay.jpg);
+	background-position: center;
+	background-size: cover;
+	/* max-height: 530px; */
+}
+.kid-education__container {
+	max-width: 1280px;
+	margin: 0 auto;
+
+}
+.text-block h2 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 120%;
+}
+.text-block {
+	display: inline-block;
+	font-family: "Quicksand", sans-serif;
+	max-width: 600px;
+	padding: 10% 0;
+	color: #fff;
+}
+.kid-education__container .text {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 5%;
+	line-height: 155%;
+
+}
+.image-block {
+	display: inline-block;
+	max-width: 505px;
+	vertical-align: top;
+	padding: 0 13%;
+} 
+.button a {
+	margin-top: 30px;
+	padding: 15px 13px 0 45px;
+	width: 217px;
+	height: 48px;
+	color: #0d1216;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 16px	;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.373);
+	background: #FFF url(../img/icons/button_hat.png) no-repeat 10%/ 20px;
+}
+/* *********************************************************************** */
+
+.collections {
+	background: 
+	url(../img/flower_left.png) no-repeat 0 100% / 170px, 
+	url(../img/flower_right.png) no-repeat 100% 40% / 170px,
+	#f5f9f9;
+	padding-top: 135px;
+	padding-bottom: 135px;
+}
+.collections_container {
+	max-width: 1315px;
+	margin: 0 auto;
+	
+}
+.collections_left-block h2 {
+	font-size: 74px;
+	font-weight: 400;
+	line-height: 120%;
+	margin-bottom: 30px;
+}
+.collections_left-block p {
+	margin-bottom: 66px;
+	text-transform: capitalize;
+	font-size: 30px;
+	line-height: 180%;
+}
+.collections-button a {
+	padding: 13px 28px 8px 64px;
+	color: #fff;
+	font-size: 29px;
+	background: #000 url(../img/icons/collections_button.png) no-repeat 10% / 30px;
+}
+.collections_left-block {
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	text-transform: capitalize;
+	max-width: 730px;
+	padding: 30px 0 60px 0;
+	margin-left: 13%;
+}
+.collections_right-block {
+	display: inline-block;
+	max-width: 360px;
+	vertical-align: top;
+	/* padding: 0 5%; */
+}
+.collections_img-container {
+	border: 2px solid rgba(43, 40, 40, 0.341);
+	border-radius: 160px 0;
+}
+.collections_img-container img {
+	width: 100%;
+	margin: -20px 18px 20px -18px;
+	border-radius: 160px 0;
+}
