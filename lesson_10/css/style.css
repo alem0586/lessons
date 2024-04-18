@@ -1,0 +1,210 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+    background-color: #f8f8f8;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    font-family: "ProximaNova", sans-serif;
+}
+.header {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: rgb(255, 255, 254);
+}
+
+.header__container {
+    padding: 30px 0px 5px 0px ;
+    position: sticky;
+    z-index: 20;
+}
+
+.headedr__logo {
+    margin-right: 35px;
+}
+
+.header__catalog {
+    display: inline-block;
+    background-color: #FFBC57;
+    height: 45px;
+    width: 145px;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+}   
+.button span {
+    display: inline-block;
+    margin-bottom: 17px;
+}
+.header__catalog:hover {
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.726);
+}
+.button::before {
+    content: url(../img/button/menu_button.svg);
+    width: 24px;
+    height: 24px;
+    margin: 10px 6px 10px 22px;
+    vertical-align: sub;
+}   
+.button:hover::before {
+    content: url(../img/button/close_menu_button.svg);
+    text-shadow: 5px 5px 10px rgb(31, 14, 14);
+} 
+.button:active {
+    box-shadow: 5px 5px -10px rgba(31, 14, 14, 0.675);
+}
+.main__menu {
+    display: none;
+}
+.main__menu:target {
+    display: inline-block;
+    position: absolute;
+	top: 101%;
+	left: 0%;
+    border-radius: 6px;
+    border-right: 3px solid #FFBC57;
+    z-index: 100;
+    width:300px;
+    background-color: rgb(240, 238, 234);
+    z-index: 100;
+}
+.menu__item {
+    height: 50px;
+}
+.menu__item:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.menu__item a {
+    display: block;
+    height: 50px;
+    position: relative;
+    z-index: 100;
+}
+.link-menu img {
+    margin: auto 15px;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+.name-menu {
+    display: inline-block;
+    margin: 15px 40px 15px 10px;
+}
+.menu__item:hover .sub-menu {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+    border-radius: 6px;
+    border-left: 4px solid #ffbc57;
+}
+.link-menu::after {
+    content: "";
+    width: 8px;
+    height: 13px;
+    background: url("../img/icons_falen_menu/arrow.svg") 0 0 / 100% no-repeat;
+    position:absolute;
+    right: 15px;
+    top: 40%;
+  }
+
+.menu__item:hover .link-menu {
+	background-color: rgb(255, 188, 87);
+}
+.menu__item:active .link-menu {
+	background-color: rgb(255, 199, 115);
+}
+.sub-menu {
+    display: none;
+    background-color: rgb(240, 238, 234);
+}
+.sub-menu__item a span{
+    padding-left: 10px;
+}
+.sub-menu__item a:hover {
+	background-color: rgb(255, 188, 87);
+}
+.sub-menu__item a:active {
+	background-color: rgb(255, 199, 115);
+}
+/* ===========card========================= */
+.categories__container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.categories__container>*:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.categories__title {
+    font-size: 40px;
+    line-height: 120%;
+    color: #2B2929;
+}
+
+.categories-section{
+    font-size: 0;
+    margin: 0 -5px -24px;
+}
+
+.cat-card {
+    position: relative;
+    width: 19.23%;
+    min-width: 192px;
+    height: 23.07%;
+    border-radius: 8px;
+    background: url("../img/goods_card/background_card.svg") bottom / 100% no-repeat, rgba(255, 255, 255, 1);
+    box-shadow: -3px 4px 15px 0 rgba(0, 0, 0, .06);
+    margin: 0 5px 24px;
+    display: inline-block;
+}
+
+.cat-card__title,
+.cat-card__number {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.cat-card__title {
+    top: 6.67%;
+    left: 8%;
+    max-width: 50%;
+    color: #2B2929;
+    display: inline-block;
+}
+
+.cat-card__number {
+    top: 6.67%;
+    right: 8%;
+    max-width: 40%;
+    text-align: right;
+    color: #B1B1B1;
+}
+
+.cat-card__image {
+    width: 100%;
+}
+
+.cat-card__icon-link {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: url("../img/goods_card/arrow_card.svg") center/contain no-repeat;
+}
+
+.cat-card__icon-link:hover {
+    width: 50px;
+    height: 50px;
+}
