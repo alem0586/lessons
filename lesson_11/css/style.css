@@ -311,12 +311,12 @@
     up-down 2s linear infinite;
 }
 @keyframes rotate   {
-	0% {
+/* 	0% {
 		rotate: 0deg;
 	}
     50% {
         transform: translate(0px, 10px);
-    }
+    } */
 	100% {
 		rotate: 360deg;
 	}
