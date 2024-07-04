@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson_21</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<h1>Урок_21</h1>
+			</header>
+			<main class="page">
+				<div class="task">
+					<h2 class="title">
+						Задача 1
+					</h2>
+					<p class="question">
+						Яка назва змінної вірна?
+					</p>
+					<ul>
+						<li>let user-name</li>
+						<li>let UserName</li>
+						<li>let userName</li>
+					</ul>
+					<h3>Відповідь:</h3>
+					<div class="answer">
+						При оголошенні змінної використовується стиль lowerCamelCase, як у третьому варіанті,
+						але синтаксична помилка з'явиться лише у першому випадку. У другому випадку - код буде працювати.
+					</div>	
+				</div>
+				<div class="task">
+					<h2 class="title">
+						Задача 2
+					</h2>
+					<p class="question">
+						Чи буде помилка при виконанні наступної програми?
+					</p>
+					<div>const userName = 20</div>
+					<div>userName = "Іштван"</div>
+					<h3>Відповідь:</h3>
+					<div class="answer">Значення userName = 20 оголошено для константи, тому не може змінюватись, як наприклад у змінної "let" </div>	
+				</div>
+				<div class="task">
+					<h2 class="title">
+						Задача 3
+					</h2>
+					<p class="question">
+						Що потрапить в консоль?
+					</p>
+					<div>let numOne = 20</div>
+					<div>let numTwo = "20"</div>
+					<div>let numSumm = numOne + numTwos</div>
+					<div>console.log(numSumm)</div>
+					<h3>Відповідь:</h3>
+					<div class="answer">
+						Оператор "+" конвертує число в рядок, тому при конкатенації в консоль потрапить 2020 (тип даних string).
+						При використанні оператора "+"(додавані) з різними типами даних, пріоритет має "рядок"(string) тому
+						javaScript інтерпритує дії користувача як конкатенація, а не арефметичний вираз.
+					</div>	
+				</div>
+			</main>
+			<footer class="footer"></footer>
+		</div>
+		<!-- Підключення JS-файлу з кодом -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
